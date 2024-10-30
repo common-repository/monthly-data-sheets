@@ -1,0 +1,95 @@
+/* 
+    Created on : Dec 14, 2015, 11:02:05 PM
+    Author     : RSK
+*/
+
+.mds-container {
+    float: left;
+    position: relative;
+    display: block;
+}
+
+.mds-left {
+    float: left !important;
+}
+
+.mds-right {
+    float: right !important;
+    text-align: right;
+}
+
+.mds-md-12,.mds-md-8, .mds-md-6,.mds-md-4,.mds-md-3.mds-md-2, .mds-md-1 {
+    padding: 1% 0;
+    float: left;
+    position: relative;
+    display: block;
+}
+
+.mds-md-12 {
+    width: 98%;
+}
+
+.mds-md-9 {
+    width: 73%;
+}
+
+.mds-md-8 {
+    width: 64.66%;
+}
+
+.mds-md-7 {
+    width: 55%;
+}
+
+.mds-md-6 {
+    width: 48%;
+}
+
+.mds-md-5 {
+    width: 39.5%;
+}
+
+.mds-md-4 {
+    width: 31.33%;
+}
+
+.mds-md-3 {
+    width: 23%;
+}
+
+.mds-md-2 {
+    width: 14.66%;
+}
+
+.mds-md-1 {
+    width: 6.33%;
+}
+
+.mds-container table {
+    width: 100%;
+}
+
+.mds-container table th,
+.mds-container table td {
+    width: auto;
+    text-align: center;
+}
+
+.mds-container table th:first-child {
+    text-align: left;
+    white-space: nowrap;
+}
+
+.mds-container .mds-button {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.mds-container select {
+    margin-right: 10px;
+    padding: 5px 3px;
+}
+
+.mds-container select option {
+    padding: 2px;
+}

@@ -1,0 +1,17 @@
+/* 
+    Created on : Apr 7, 2016, 11:15:14 PM
+    Author     : RSK
+*/
+
+.mds-meta-box small {
+    display: block;
+    float: left;
+    margin-bottom: 2em;
+}
+
+.post-type-datasheet #post-body-content .wp-editor-wrap #wp-content-editor-container .mce-edit-area,
+.post-type-datasheet textarea#content {
+    height: 200px !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
